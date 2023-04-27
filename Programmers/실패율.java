@@ -1,6 +1,5 @@
 // 2023/04/27 풀이
 // https://school.programmers.co.kr/learn/courses/30/lessons/42889
-// 퀵 정렬
 package Programmers;
 
 import java.util.Arrays;
@@ -16,7 +15,7 @@ public class 실패율 {
         int[] stageReachedTotal = new int[N+1];
 
         for (int i = 0 ; i < stages.length ; i++) {
-            int reached = ((int)stages[i]%(N+1));
+            int reached = (stages[i]%(N+1));
             stageReached[reached]++; 
 
             if (reached == 0) {
@@ -55,7 +54,7 @@ public class 실패율 {
                 }
             }
         }
-        
+        System.out.println(Arrays.toString(answer));
     }
 
 }
