@@ -1,3 +1,4 @@
+package Programmers;
 // 2023/05/07
 // 
 public class 개인정보_수집_유효기간{
@@ -21,7 +22,6 @@ public class 개인정보_수집_유효기간{
 		for (int i = 0; i < temp2.length; i++) {
 			answer[i] = Integer.parseInt(temp2[i]);
 		}
-        return answer;
     }
     
     public static int convertDate(String date) {
@@ -42,5 +42,6 @@ public class 개인정보_수집_유효기간{
 				result += Integer.parseInt(s2[i][1]) * 28;
 			}
 		}
+		return result;
     }
 }

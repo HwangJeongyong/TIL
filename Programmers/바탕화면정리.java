@@ -1,5 +1,8 @@
 // 2023/05/06
 // https://school.programmers.co.kr/learn/courses/30/lessons/161990
+
+package Programmers;
+
 public class 바탕화면정리{
     public static void main(String[] args) {
         String[] wallpaper ={".##...##.", "#..#.#..#", "#...#...#", ".#.....#.", "..#...#..", "...#.#...", "....#...."};
