@@ -2,6 +2,8 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/72410
 package Programmers;
 
+import java.util.ArrayList;
+
 public class 신규아이디추천 {
     public static void main(String[] args) {
         String new_id = "...!@BaT#*..y.abcdefghijklm";
