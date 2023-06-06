@@ -4,6 +4,7 @@ package Programmers;
 
 public class 최댓값과최솟값 {
     public static void main(String[] args) {
+        String s ="1 2 3 4";
         String[] arrS = s.split(" ");
         int[] arrI = new int[arrS.length];
         for (int i = 0; i < arrS.length; i++){
